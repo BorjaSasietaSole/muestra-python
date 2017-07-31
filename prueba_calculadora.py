@@ -29,7 +29,7 @@ def resto (a, b):
     return a % b
 
 
-"""funcion para pedir un valor i te devuelva forzando al usuario a que sea un entero"""
+"""funcion para pedir un valor y te devuelva forzando al usuario a que sea un entero"""
 def pedir(cad):
     par = input(cad + "\n")
     par = int(par)
